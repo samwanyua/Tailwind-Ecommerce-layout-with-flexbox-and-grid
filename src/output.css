@@ -29,12 +29,26 @@
   margin-bottom: 0px
 }
 
+.my-3{
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem
+}
+
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem
+}
+
 .mr-5{
   margin-right: 1.25rem
 }
 
 .mr-12{
   margin-right: 3rem
+}
+
+.mt-11{
+  margin-top: 2.75rem
 }
 
 .inline{
@@ -117,6 +131,30 @@
   height: 180px
 }
 
+.h-\[240px\]{
+  height: 240px
+}
+
+.h-\[27px\]{
+  height: 27px
+}
+
+.h-\[400\]{
+  height: 400
+}
+
+.h-\[400px\]{
+  height: 400px
+}
+
+.h-\[0px\]{
+  height: 0px
+}
+
+.max-h-\[270px\]{
+  max-height: 270px
+}
+
 .w-\[\]{
   width: 
 }
@@ -151,6 +189,41 @@
 
 .w-\[24\]{
   width: 24
+}
+
+.w-full{
+  width: 100%
+}
+
+.w-\[240px\]{
+  width: 240px
+}
+
+.w-\[360px\]{
+  width: 360px
+}
+
+.w-2\/3{
+  width: 66.666667%
+}
+
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content
+}
+
+.w-max{
+  width: -moz-max-content;
+  width: max-content
+}
+
+.w-min{
+  width: -moz-min-content;
+  width: min-content
+}
+
+.w-screen{
+  width: 100vw
 }
 
 .min-w-3{
@@ -193,12 +266,20 @@
   grid-template-columns: repeat(3, minmax(0, 1fr))
 }
 
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr))
+}
+
 .flex-row{
   flex-direction: row
 }
 
 .flex-col{
   flex-direction: column
+}
+
+.items-start{
+  align-items: flex-start
 }
 
 .items-center{
@@ -229,6 +310,10 @@
   gap: 1rem
 }
 
+.gap-2{
+  gap: 0.5rem
+}
+
 .space-x-5 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(1.25rem * var(--tw-space-x-reverse));
@@ -245,6 +330,24 @@
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))
+}
+
+.space-x-2 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))
+}
+
+.space-x-\[23\] > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(23 * var(--tw-space-x-reverse));
+  margin-left: calc(23 * calc(1 - var(--tw-space-x-reverse)))
+}
+
+.space-x-10 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)))
 }
 
 .rounded-md{
@@ -302,6 +405,16 @@
   background-color: rgb(255 255 255 / var(--tw-bg-opacity))
 }
 
+.bg-green-800{
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 101 52 / var(--tw-bg-opacity))
+}
+
+.bg-orange-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 88 12 / var(--tw-bg-opacity))
+}
+
 .bg-gradient-to-br{
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops))
 }
@@ -350,6 +463,11 @@
   background-position: center
 }
 
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover
+}
+
 .p-8{
   padding: 2rem
 }
@@ -381,6 +499,16 @@
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem
+}
+
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem
+}
+
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem
 }
 
 .text-center{
@@ -517,6 +645,22 @@
 
   .sm\:w-10{
     width: 2.5rem
+  }
+
+  .sm\:flex-col{
+    flex-direction: column
+  }
+
+  .sm\:items-center{
+    align-items: center
+  }
+
+  .sm\:justify-start{
+    justify-content: flex-start
+  }
+
+  .sm\:justify-center{
+    justify-content: center
   }
 
   .sm\:text-2xl{
