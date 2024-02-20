@@ -113,8 +113,16 @@
   min-width: 375
 }
 
+.min-w-\[270\]{
+  min-width: 270
+}
+
 .max-w-screen-lg{
   max-width: 1024px
+}
+
+.flex-grow-0{
+  flex-grow: 0
 }
 
 .list-none{
@@ -387,11 +395,31 @@
   .sm\:w-10{
     width: 2.5rem
   }
+
+  .sm\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem
+  }
 }
 
 @media (min-width: 768px){
   .md\:flex{
     display: flex
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem
+  }
+
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem
   }
 }
 
