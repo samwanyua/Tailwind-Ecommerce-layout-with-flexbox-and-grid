@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-ecommerce-layout-with-flexbox-and-grid",
+  "version": "1.0.0",
+  "description": "This repository serves as a guide and example for creating a responsive and stylish e-commerce layout using Tailwind CSS. Tailwind CSS is a utility-first CSS framework that makes it easy to build modern and scalable user interfaces.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
