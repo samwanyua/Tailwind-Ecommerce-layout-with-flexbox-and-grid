@@ -29,16 +29,19 @@ Before you begin, make sure you have the following installed:
    ```bash
    git clone https://github.com/your-username/ecommerce-layout-tailwind.git
    ```
+
 2. Navigate to the project folder:
 
 ``
 cd ecommerce-layout-tailwind
 ``
+
 3. Install dependencies:
 
 ``
 npm install
 ``
+
 4. Start the development server:
 ``
 npm run dev
